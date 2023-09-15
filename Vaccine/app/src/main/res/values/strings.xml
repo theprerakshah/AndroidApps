@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Vaccine</string>
+    <string-array name="vaccine_name">
+
+        <item>"Oxford–AstraZeneca"</item>
+        <item>"Janssen"</item>
+        <item> "SputnikV"</item>
+        <item> "Moderna"</item>
+        <item>"Convidecia"</item>
+        <item>"iNCOVACC"</item>
+        <item>"CVaccine"</item>
+        <item>"Oxford–AstraZeneca"</item>
+        <item>"Janssen"</item>
+        <item> "SputnikV"</item>
+        <item> "Moderna"</item>
+        <item>"Convidecia"</item>
+        <item>"iNCOVACC"</item>
+        <item>"CVaccine"</item>
+
+    </string-array>
+    <string-array name="vaccine_price">
+        <item>$12</item>
+        <item>$14</item>
+        <item>$15</item>
+        <item>$16</item>
+        <item>$18</item>
+        <item>$11</item>
+        <item>$10</item>
+        <item>$12</item>
+        <item>$14</item>
+        <item>$15</item>
+        <item>$16</item>
+        <item>$18</item>
+        <item>$11</item>
+        <item>$10</item>
+    </string-array>
+</resources>

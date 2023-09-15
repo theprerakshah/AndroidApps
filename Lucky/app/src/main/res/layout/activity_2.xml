@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ten"
+    tools:context=".Activity2">
+
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="353dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="100dp"
+        android:text="Your Lucky Number is"
+        android:textColor="#C10468"
+        android:textSize="35sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="94dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="12dp"
+        android:padding="12dp"
+        android:text="00"
+        android:textColor="#C10468"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="@+id/text2"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="@+id/text2"
+        app:layout_constraintTop_toBottomOf="@+id/text2" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="308dp"
+        android:backgroundTint="#C10468"
+        android:padding="15dp"
+        android:text="Share your lucky number!"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="italic|bold"
+        app:layout_constraintEnd_toEndOf="@+id/text2"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="@+id/text2"
+        app:layout_constraintTop_toBottomOf="@+id/text2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

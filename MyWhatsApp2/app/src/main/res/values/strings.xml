@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">MyWhatsApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="name">
+        <item>James</item>
+        <item>Mary</item>
+        <item>Patricia</item>
+        <item>Jennifer</item>
+        <item>Linda</item>
+        <item>Robert</item>
+        <item>John</item>
+        <item>Michael</item>
+        <item>David</item>
+        <item>William</item>
+        <item>Richard</item>
+        <item>Joseph</item>
+        <item>Thomas</item>
+        <item>Christopher</item>
+        <item>Charles</item>
+        <item>Daniel</item>
+        <item>Matthew</item>
+        <item>Elizabeth</item>
+        <item>Barbara</item>
+        <item>Susan</item>
+        <item>Jessica</item>
+        <item>Sarah</item>
+        <item>Karen</item>
+        <item>Lisa</item>
+        <item>Nancy</item>
+    </string-array>
+    <string-array name="messageCount">
+        <item>2 messages</item>
+        <item>3 messages</item>
+        <item>1 message</item>
+        <item>4 messages</item>
+        <item>5 messages</item>
+        <item>7 messages</item>
+        <item>2 messages</item>
+        <item>3 messages</item>
+        <item>25 messages</item>
+        <item>9 messages</item>
+        <item>8 messages</item>
+        <item>5 messages</item>
+        <item>12 messages</item>
+        <item>34 messages</item>
+        <item>3 messages</item>
+        <item>1 messages</item>
+        <item>2 messages</item>
+        <item>5 messages</item>
+        <item>6 messages</item>
+        <item>27 messages</item>
+        <item>26 messages</item>
+        <item>3 messages</item>
+        <item>8 messages</item>
+        <item>9 messages</item>
+        <item>27 messages</item>
+    </string-array>
+</resources>

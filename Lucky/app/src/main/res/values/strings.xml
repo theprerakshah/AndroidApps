@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lucky</string>
+    <string name="welcome_message">Welcome to lucky number app!!</string>
+    <string-array name="name_array">
+        <item>java</item>
+        <item>python</item>
+        <item>c++</item>
+        <item>kotlin</item>
+
+    </string-array>
+</resources>

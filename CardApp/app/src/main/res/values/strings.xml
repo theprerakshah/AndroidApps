@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">CardApp</string>
+    <string-array name="gameName">
+        <item>Monster Hunter</item>
+        <item>Forza Horizon 5</item>
+        <item>Doom Eternal</item>
+        <item>It Takes Two</item>
+        <item>Alien Isolation</item>
+        <item>Rocket League</item>
+        <item>Hollow Knight</item>
+        <item>Final Fantasy 14</item>
+        <item>Elden Ring</item>
+        <item>Disco Elysium</item>
+        <item>Mass Legendary</item>
+        <item>God of War</item>
+        <item>Control</item>
+        <item>Monster Hunter Rise</item>
+        <item>Psychonauts 2</item>
+    </string-array>
+    <string-array name="gameDownloads">
+        <item>12B</item>
+        <item>1B</item>
+        <item>2B</item>
+        <item>14B</item>
+        <item>12M</item>
+        <item>1M</item>
+        <item>5B</item>
+        <item>7B</item>
+        <item>7B</item>
+        <item>8B</item>
+        <item>9B</item>
+        <item>20B</item>
+        <item>10B</item>
+        <item>20M</item>
+        <item>23B</item>
+    </string-array>
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    tools:context=".Activity2">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="48dp"
+        android:text="MyMusicApp"
+        android:textColor="#824E4E"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/music_image"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="59dp"
+        android:src="@drawable/fil"
+        app:layout_constraintBottom_toTopOf="@+id/music_seekbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <SeekBar
+        android:id="@+id/music_seekbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="152dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/music_image">
+
+    </SeekBar>
+
+
+    <TextView
+        android:id="@+id/music_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="13dp"
+        android:text="songName"
+        android:textSize="23dp"
+        app:layout_constraintBottom_toTopOf="@+id/music_seekbar"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/song_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="12dp"
+        android:text="00:00"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/music_seekbar"></TextView>
+
+    <Button
+        android:id="@+id/play_button"
+        android:layout_width="71dp"
+        android:layout_height="59dp"
+        android:layout_marginEnd="216dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/play_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"></Button>
+
+    <Button
+        android:id="@+id/pause_button"
+        android:layout_width="71dp"
+        android:layout_height="59dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/pause"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"></Button>
+
+    <Button
+        android:id="@+id/forwad_button"
+        android:layout_width="71dp"
+        android:layout_height="59dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"></Button>
+
+    <Button
+        android:id="@+id/backward_button"
+        android:layout_width="71dp"
+        android:layout_height="59dp"
+        android:layout_marginEnd="312dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/previous"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"></Button>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

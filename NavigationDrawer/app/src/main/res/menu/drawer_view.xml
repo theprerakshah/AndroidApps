@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+                android:id="@+id/option1"
+                android:title="Android Course"
+                android:icon="@drawable/app1">
+
+        </item>
+        <item
+                android:id="@+id/option2"
+                android:title="IOS Course"
+                android:icon="@drawable/app2">
+
+        </item>
+        <item
+                android:id="@+id/option3"
+                android:title="Web Course"
+                android:icon="@drawable/app3">
+
+        </item>
+
+
+    </group>
+
+
+</menu>
