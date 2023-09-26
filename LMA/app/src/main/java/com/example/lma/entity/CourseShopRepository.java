@@ -27,6 +27,7 @@ public class CourseShopRepository {
         return courseList;
     }
 
+
     public LiveData<List<Category>> getAllCategory() {
         categoryList = categoryDao.getAllCategories();
         return categoryList;
@@ -102,4 +103,6 @@ public class CourseShopRepository {
         });
 
     }
+
+
 }
